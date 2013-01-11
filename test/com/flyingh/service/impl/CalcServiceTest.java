@@ -12,6 +12,8 @@ public class CalcServiceTest extends AndroidTestCase {
 		Assert.assertEquals(2, calcService.add(1, 1));
 		Assert.assertEquals(0, calcService.divide(2, 0));
 		Assert.assertFalse(calcService.divide(10, 5) == 3);
+		System.out.println("test");
+		System.err.println("error");
 	}
 
 }
